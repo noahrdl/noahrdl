@@ -1,0 +1,150 @@
+@font-face {
+  font-family: sabo;
+  src: url(dir/resources/fonts/sabo.otf);
+}
+@font-face {
+  font-family: Them;
+  src: url(dir/resources/fonts/Them.ttf);
+}
+@font-face {
+  font-family: cube;
+  src: url(dir/resources/fonts/Cube.ttf);
+}
+@font-face {
+  font-family: death;
+  src: url(dir/resources/fonts/Death.otf);
+}
+@font-face {
+  font-family: goodtimes;
+  src: url(dir/resources/fonts/goodtimes.otf);
+} 
+@font-face {
+  font-family: fyodor;
+  src: url(dir/resources/fonts/fyodor.ttf);
+}
+
+@font-face {
+  font-family: bit;
+  src: url(dir/resources/fonts/bit.ttf);
+}
+
+@font-face {
+  font-family: readable;
+  src: url(dir/resources/fonts/readable.ttf);
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+
+50% {
+background-position: 100% 50%;
+}
+
+100% {
+background-position: 0% 50%;
+}
+}
+
+.centerdiv{
+  margin: auto;
+  width: 50%;
+
+}
+.redcontainerdiv{
+  border: 20px solid #ff0000;
+  padding-top: 50px;
+  padding: 30px;
+}
+.tmenu{
+  margin-left: AUTO;
+  margin-right: AUTO;
+  padding: 10px;
+}
+
+.selector {
+  border-color: aliceblue 1px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: left;
+  
+}
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.separator{
+  border-color: aliceblue 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: darkred;
+  font-size: xx-large;
+}
+
+body {
+text-align: center;
+background: linear-gradient(-45deg, #000000,#FFFFFF);
+background-size: 200% 200%;
+animation: gradient 15s ease infinite;
+min-height: 50vh;
+}
+
+  
+  h1 {
+    color: #FF0000;
+    font-family: sabo;
+    font-size: 80px;
+    font-variant: small-caps;
+    text-align: center;
+  }
+
+  h2 {
+    color: #ff0000;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: none
+  }
+  
+  h3 {
+      color: #670b0b;
+      font-size: 20px;
+      text-align: center;
+      font-family: bit;
+  }
+
+  h4{
+    color: #566c7a;
+      font-size: 25px;
+      text-align: center;
+      font-family: readable;
+  }
+
+  hr.rojo {
+    border: 8px solid #ff0000;
+    width: 25%;
+  }
+
+  a {
+    color: #1b004b;
+    font-family: Them;
+    text-align: center;
+    font-size: 102px;
+    text-decoration: none
+
+  }
+
+  audio {
+    align-content: center;
+  }
+
+  /*ANIMATIONS*/
+  .selector:hover{
+    transition: 0.3s;
+   transform: scale(1.1,1.1);
+  }
